@@ -1,5 +1,5 @@
 import ThreadCard from "@/components/cards/ThreadCard";
-import Comment from "@/components/forms/comment";
+import Comment from "@/components/forms/Comment";
 import { fetchThreadById } from "@/lib/actions/thread.action";
 import { fetchUser } from "@/lib/actions/user.action";
 import { currentUser } from "@clerk/nextjs";
